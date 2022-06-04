@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>HID Suggestion</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.css" />
+  <link rel="stylesheet" href="css/contactform.css">
+  <style type="text/css">
+    .btn{
+      width:100%;
+  padding:1em;
+  outline-color: #D43F52;
+  border:1px solid #c9e6ff;
+  background:#D43F52;
+  border:0;
+  text-transform: uppercase;
+  margin-top: 10px;
+    }
+    .btn:hover{
+      background:#1a1a1a;
+  color:#fff;
+  outline:0;
+  transition: background-color 2s ease-out;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 class="brand"><span>HID</span> Share Your Suggestions</h1>
+    <div class="wrapper">
+      <div class="company-info">
+        <h3>Hack In Dark</h3>
+        <ul>
+          <li><i class="fa fa-instagram"></i> Nazimcp7</li>
+          <li><i class="fa fa-link"><a></i> www.nazimcp.ml</li></a>
+          <li><i class="fa fa-envelope"></i> nazimcp7@gmail.com</li>
+        </ul>
+      </div>
+      <div class="contact">
+        <h3>Suggest Your Opinion</h3>
+        <div class="alert">Your message has been sent</div>
+        <form id="contactForm">
+          <p>
+            <label>First Name</label>
+            <input type="text" name="name" id="name" required>
+          </p>
+          <p>
+            <label>Second Name</label>
+            <input type="text" name="company" id="company">
+          </p>
+          <p>
+            <label>Email Address</label>
+            <input type="email" name="email" id="email" required>
+          </p>
+
+          <p class="full">
+            <label>Your Suggestions</label>
+            <textarea name="message" rows="5" id="message" required></textarea>
+          </p>
+          <p class="full">
+            <button type="submit">Submit</button>
+          </p>
+        </form>
+        <a href="index.html"><button class="btn">Exit</button></a>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+  <script src="js/contactform.js"></script>
+</body>
+</html>

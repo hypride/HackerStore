@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log Out</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.css"
+    rel="stylesheet"
+    />
+    <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.5.0/mdb.min.js"
+    ></script>
+    <style type="text/css">
+      body{
+                background: url("images/front.jpg");
+    background-color: black;
+    background-size: cover;
+        background-repeat: no-repeat;
+            }
+        .btn {
+  width: 200px;
+  font-size: 20px;
+  height: 60px;
+  border: solid;
+  border-width: 1px;
+  border-color: #D7260E;
+  outline: none;
+  background: #c38b8b;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+}
+
+.btn::before {
+  position: absolute;
+  content: "";
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  left: -2px;
+  top: -2px;
+  background: linear-gradient(
+    124deg,
+    #ff2400,
+    #e81d1d,
+    #e8b71d,
+    #e3e81d,
+    #1de840,
+    #1ddde8,
+    #2b1de8,
+    #dd00f3,
+    #dd00f3
+  );
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  animation: move 20s linear infinite;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.btn:hover::before {
+  opacity: 1;
+  color: white;
+}
+.message{
+    font-size: 50px;
+    font-family: 'Ubuntu', sans-serif;
+    color: #480405;
+  }
+
+.btn::after {
+  z-index: -1;
+  content: "";
+  color: white;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: darkred;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+@keyframes move {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+    </style>
+</head>
+<body>
+    <center><div style="margin:100px ; margin-top: 200px;">
+        <span id="user" class="message" style="font-family: 'Ubuntu', sans-serif;">Thanks For Visiting</Email-id></span>
+        <div class="success"><span></span></div><br/>
+        <button class="btn" onclick="logout()" style="color: white;">Logout</button>
+    </div></center>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-auth.js"></script>
+
+    <script src="js/firebase.js"></script>
+    <script src="js/welcome.js"></script>
+</body>
+</html>
