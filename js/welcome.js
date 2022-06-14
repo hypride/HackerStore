@@ -1,6 +1,6 @@
 firebase.auth().onAuthStateChanged((user)=>{
     if(!user){
-        location.replace("recap.html")
+        location.replace("index.html")
     }else{
         document.getElementById("user").innerHTML = "Thanks For Visiting"
 
