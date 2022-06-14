@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Captcha in JavaScript | CodingNepal</title>
+  <link rel="stylesheet" href="css/recap_style.css">
+  <!-- Font Awesome CDN Link for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+  <div class="wrapper">
+    <header>Verify you're not Robot</header>
+    <div class="captcha-area">
+      <div class="captcha-img">
+        <img src="images/captcha-bg.png" alt="Captch Background">
+        <span class="captcha"></span>
+      </div>
+      <button class="reload-btn"><i class="fas fa-redo-alt"></i></button>
+    </div>
+    <form action="#" class="input-area">
+      <input type="text" placeholder="Enter captcha" maxlength="6" spellcheck="false"  required>
+      <button class="check-btn">Verify</button>
+    </form>
+    <div class="status-text"></div>
+  </div>
+
+  <script src="js/recap_script.js"></script>
+
+</body>
+</html>
