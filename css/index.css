@@ -18,7 +18,7 @@
 }
 
 .custom-field input{
-    padding: 12px;
+    padding: 10px;
     width: 300px;
     font-size: 14px;
     border-radius: 3px;
@@ -37,7 +37,7 @@
 
 .custom-field input:valid + .placeholder,
 .custom-field input:focus + .placeholder{
-    top: 21px;
+    top: 17px;
     font-size: 10px;
     color: #222;
     padding: 5px;
@@ -68,4 +68,8 @@
     border: 1.5px solid gray;
     outline-color: deepskyblue;
     }
+}
+
+.card{
+    border-radius: 10%;
 }
