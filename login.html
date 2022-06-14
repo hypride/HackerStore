@@ -34,7 +34,7 @@
     <body class="d-flex justify-content-center p-5" id="body">
         <div class="card">
             <div class="card-header">
-                <center><h3 style="color: #D43F52; margin-top: 30px;">Login Form</h3></center>
+                <center><h3 style="color: #D43F52; margin-top: 30px;">Login</h3></center>
             
             <form onsubmit="login()" id="loginForm" class="card-body px-5 py-4">
                 <center><small><span id="error" style="color: red"></span></small></center>
@@ -43,15 +43,17 @@
                     <span class="placeholder">Email Id</span>
                 </label><br />
                 <label class="custom-field">
-                    <input id="password" type="password" class="input" style="border-radius: 10px;" required />
+                    <input id="password" type="password" class="passwood" style="border-radius: 10px;" required />
                     <span class="placeholder">Password</span>
                 </label></center>
                 <br>
-                <a href="#" onclick="forgotPass()" style="color: #D43F52;" >Forgot Password</a>
+                <a href="#" onclick="forgotPass()" style="color: #D43F52; font-size: 13px;"  class="forgt" >Forgot Password</a>
                 <br>
                 <center><button type="submit" class="btn btn-outline-danger" style="margin-top: 20px; margin-right: 5px;">Login</button>
-                <button onclick="signUp()" class="btn btn-outline-danger" style="margin-top: 10px; margin-left: 5px;">Sign Up</button>
                 </center>
+                <br>
+                <center><a  style="color: #D43F52 ; font-size: 12px;" >Don't have an account ? <a href="sign.html" style="color: #a30016; font-size: 12px;"><u>Sign up</u></a></a></center>
+
             </form>
         </div>
         </div>
