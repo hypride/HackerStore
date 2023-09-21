@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+<title>Search</title>
+<style>
+  body{
+    background-color: black;
+  font-family: 'Poppins', sans-serif;
+  }
+* {
+  box-sizing: border-box;
+   animation: fadein 2s; 
+}
+@keyframes fadein {
+ 0% {
+ opacity:0;
+ }
+ 50%{
+ opacity:0.5;
+ }
+ 100% {
+ opacity:1;
+ }
+
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png');
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myUL {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+#myUL li a {
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #1a1a1a;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+#myUL li a:hover:not(.header) {
+  background-color: black;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+.h2{
+  font-family: 'Poppins', sans-serif;
+}
+.li{
+  font-family: 'Poppins', sans-serif;
+  background-color: #1a1a1a;
+}
+.li {
+  transition: transform .2s; /* Animation */
+}
+
+.li:hover {
+  transform: scale(1.0); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+</style>
+
+</style>
+</head>
+<body>
+
+<h2 style="color:white;">Search Your Course</h2>
+
+<input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
+
+<ul id="myUL">
+  <li class="a"><a href="https://mega.nz/folder/TyhGnIiR#XlHwR6qa4cZ3Tl1bSm2-QA/folder/WjZlka4K" style="color:white;">Shell Scripting Cousre</a></li>
+  <li class="a"><a href="https://mega.nz/folder/6pQDkQ6Z#mtiF9vmoiubjzefax1e6hw/folder/PhZUHJgJ" style="color:white;">Arduino Course</a></li>
+  <li class="a"><a href="https://mega.nz/folder/6pQDkQ6Z#mtiF9vmoiubjzefax1e6hw/folder/zsZAnRLA" style="color:white;">C Language Course</a></li>
+  <li class="a"><a href="https://mega.nz/folder/6pQDkQ6Z#mtiF9vmoiubjzefax1e6hw/folder/vxBWyTJB" style="color:white;">C++ Language Course</a></li>
+  <li class="a"><a href="https://mega.nz/folder/6pQDkQ6Z#mtiF9vmoiubjzefax1e6hw/folder/K5JSzRKD" style="color:white;">CSS Language Course</a></li>
+  <li class="a"><a href="https://mega.nz/folder/6pQDkQ6Z#mtiF9vmoiubjzefax1e6hw/folder/CtJ2WDjT" style="color:white;">GoLang Language Course</a></li>
+  <li class="a"><a href="https://mega.nz/folder/6pQDkQ6Z#mtiF9vmoiubjzefax1e6hw/folder/X1YmEJQQ" style="color:white;">HTML Master Course</a></li>
+  <li class="a"><a href="https://mega.nz/folder/6pQDkQ6Z#mtiF9vmoiubjzefax1e6hw/folder/npY0QTSR" style="color:white;">Java Master Class</a></li>
+  <li class="a"><a href="https://mega.nz/folder/6pQDkQ6Z#mtiF9vmoiubjzefax1e6hw/folder/LwQQ1Rha" style="color:white;">JavaScript Master Class</a></li>
+  <li class="a"><a href="https://mega.nz/folder/6pQDkQ6Z#mtiF9vmoiubjzefax1e6hw/folder/apImzBIT" style="color:white;">Perl Master Class</a></li>
+  <li class="a"><a href="https://mega.nz/folder/6pQDkQ6Z#mtiF9vmoiubjzefax1e6hw/folder/fxQSFByA" style="color:white;">PHP Master Class</a></li>
+  <li class="a"><a href="https://mega.nz/folder/6pQDkQ6Z#mtiF9vmoiubjzefax1e6hw/folder/y8QkRLSB" style="color:white;">Python Master Class</a></li>
+  <li class="a"><a href="https://mega.nz/folder/6pQDkQ6Z#mtiF9vmoiubjzefax1e6hw/folder/DkQQzbhI" style="color:white;">Ruby Master Class</a></li>
+  <li class="a"><a href="https://mega.nz/folder/6pQDkQ6Z#mtiF9vmoiubjzefax1e6hw/folder/j0RQjTwB" style="color:white;">SQl Master Class</a></li>
+  <li class="a"><a href="https://mega.nz/folder/w0JBEYyD#UnJtjvmIEQNGUYEMMSC54A" style="color:white;">Python Deep Learning</a></li>
+  <li class="a"><a href="https://drive.google.com/file/d/1G0BvSEI9iM1GXE51NjWCIUxPEZnLT16y/view" style="color:white;">Python Flask Master Class</a></li>
+  <li class="a"><a href="https://mega.nz/folder/TyhGnIiR#XlHwR6qa4cZ3Tl1bSm2-QA/file/fqZHCYJR" style="color:white;">Hacking Tool Pack</a></li>
+  <li class="a"><a href="https://mega.nz/folder/TyhGnIiR#XlHwR6qa4cZ3Tl1bSm2-QA/file/qzg2SKgR" style="color:white;">Hacking Gadget Making</a></li>
+  <li class="a"><a href="https://mega.nz/folder/TyhGnIiR#XlHwR6qa4cZ3Tl1bSm2-QA/folder/OiZ31YYY" style="color:white;">Android Hacking</a></li>
+  <li class="a"><a href="https://mega.nz/folder/TyhGnIiR#XlHwR6qa4cZ3Tl1bSm2-QA/folder/S3InFaAb" style="color:white;">System Hacking</a></li>
+  <li class="a"><a href="https://mega.nz/folder/TyhGnIiR#XlHwR6qa4cZ3Tl1bSm2-QA/folder/njAnACRD" style="color:white;">Web Application Testing Course</a></li>
+  <li class="a"><a href="https://mega.nz/folder/TyhGnIiR#XlHwR6qa4cZ3Tl1bSm2-QA/folder/rvY1yApa" style="color:white;">Ethical Hacking</a></li>
+  <li class="a"><a href="https://mega.nz/folder/TyhGnIiR#XlHwR6qa4cZ3Tl1bSm2-QA/folder/WyAVwIpI" style="color:white;">Kali Linux</a></li>
+  <li class="a"><a href="https://mega.nz/folder/TyhGnIiR#XlHwR6qa4cZ3Tl1bSm2-QA/folder/WjZlka4K" style="color:white;">Shell Scripting</a></li>
+  <li class="a"><a href="https://mega.nz/folder/TyhGnIiR#XlHwR6qa4cZ3Tl1bSm2-QA/folder/76QHFCba" style="color:white;">Cyber Security Pratical</a></li>
+  <li class="a"><a href="https://mega.nz/folder/TyhGnIiR#XlHwR6qa4cZ3Tl1bSm2-QA/folder/vnZ3laAD" style="color:white;">Python GUi</a></li>
+  <li class="a"><a href="https://mega.nz/folder/TyhGnIiR#XlHwR6qa4cZ3Tl1bSm2-QA/folder/SiAz2IjY" style="color:white;">SEO</a></li>
+  <li class="a"><a href="https://mega.nz/folder/TyhGnIiR#XlHwR6qa4cZ3Tl1bSm2-QA/file/jqgCwKxJ" style="color:white;">Andorid Expolitation</a></li>
+  <li class="a"><a href="http://www.mediafire.com/file/kcaiuttauptn1al/%255BMEGA-PACK%255D_Cracking_Tools.rar/file" style="color:white;">Cracking Tools</a></li>
+  <li class="a"><a href="https://mega.nz/folder/zSpnzKKD#UPhqD2NZBoM3ImhvMsx9qA" style="color:white;">CompTIA A+ Certification</a></li>
+  <li class="a"><a href="https://mega.nz/folder/HD5kFLIb#0GL5H-vCZ97egfYQDgGHOg" style="color:white;">Bug Bounty</a></li>
+  <li class="a"><a href="https://mega.nz/folder/OShBhKQa#AsIpstxQ_B3At405IbhsfA" style="color:white;">Hacking Tools</a></li>
+  <li class="a"><a href="https://anonfiles.com/b6k6V1c0y5/Cracker_Mega_Pack_exe" style="color:white;">Cracking Pack</a></li>
+  <li class="a"><a href="https://drive.google.com/file/d/1IAI-LulEeXA2jFAsH4sq5t4WM1S8dsnn/view" style="color:white;">Andorid Development</a></li>
+  <li class="a"><a href="https://drive.google.com/drive/folders/19qUBeq7jGaxP1kWBGaH1XPA6ZbsCpisAG" style="color:white;">Photoshop Advanced</a></li>
+  <li class="a"><a href="https://mega.nz/#F!gBAiESIS!oMUgppI6I0T9Cu4yKnYddg" style="color:white;">Trading Traning</a></li>
+  <li class="a"><a href="https://bit.ly/2pCiBcm" style="color:white;">Digital Marketing</a></li>
+  <li class="a"><a href="https://mega.nz/folder/69sl2QjL#yPT-eASprG-j_SVv_ge40w" style="color:white;">Advanced Web Development</a></li>
+  <li class="a"><a href="https://mega.nz/folder/9O4iTLqL#pRdKNvaWwxbMmTtMfHsyOQ" style="color:white;">Computer Security</a></li>
+  <li class="a"><a href="https://drive.google.com/file/d/1OZHbIYjUaF_yedG1EF4rdpNqzUrb6L0f/view" style="color:white;">Android App Development Form Scracth</a></li>
+  <li class="a"><a href="https://drive.google.com/drive/folders/1_u7A9jVz8JRHDHjFyvDnvt6tNG9jF-2f" style="color:white;">Python Data Analasiy</a></li>
+  <li class="a"><a href="http://gestyy.com/ei6daF" style="color:white;">Giutar Master Class</a></li>
+  <li class="a"><a href="https://github.com/Da2dalus/The-MALWARE-Repo" style="color:white;">Virus Collection</a></li>
+  <li class="a"><a href="https://mega.nz/file/ENJjma6C#XMuDByZCO3qKCJQnYjqqiEBHs1-ELzBTKGH5I3MOkxY" style="color:white;">Ransomeware</a></li>
+  <li class="a"><a href="https://mega.nz/file/20BFwCLb#CkDSzEi7UI1n5S-J9ak8-kppDGxiM2Som5V0yEz1YoY" style="color:white;">Black Bullet</a></li>
+  <li class="a"><a href="https://github.com/AJMartel/MeGa-RAT-Pack" style="color:white;">Rat Collection</a></li>
+  <li class="a"><a href="https://mega.nz/file/D5wyDQBb#eNQNOdU4N24nICHV9Qywn7kBjOUtbwR706vwdnObOKY" style="color:white;">Botnets</a></li>
+  <li class="a"><a href="https://mega.nz/folder/fDhg0SDJ#ZJDu-6dXEIkKpjYYikjf7w" style="color:white;">Ethical Hacking Full Course</a></li>
+  <li class="a"><a href="https://www.mediafire.com/folder/86uv651k8cdcv" style="color:white;">Hacking Apps</a></li>
+  <li class="a"><a href="https://www.mediafire.com/folder/5f1feng7rk9hn/Keyloggers" style="color:white;">Android Keylogger</a></li>
+  <li class="a"><a href="https://www.mirrored.to/files/6UTQAWNC/" style="color:white;">Keylogger</a></li>
+  <li class="a"><a href="http://www.mediafire.com/file/iydivdbar7vk3bz/APK+Modded.rar/file" style="color:white;">Android Modding Tools</a></li>
+  <li class="a"><a href="https://mega.nz/folder/kJxAEZpA#s6DNbkKgRw70P1aHZbZ0Tw" style="color:white;">Certified Ethcal Hacking V10</a></li>
+  <li class="a"><a href="https://mega.nz/folder/a65S3aBY#bogJHcngIE9KmNIfC2N7jg/folder/uuxBSCYI" style="color:white;">CCNA Security Course</a></li>
+  <li class="a"><a href="https://mega.nz/folder/jyQVhQ7A#3yfyST8S8NxHkY9jiMRQsA" style="color:white;">Metasploit Pentesting Course</a></li>
+  <li class="a"><a href="https://drive.google.com/u/0/uc?id=1u5gVFb6PAgHn_LPtYcAHBypS83di-xKy&export=download" style="color:white;">Network Scanning Course</a></li>
+  <li class="a"><a href="https://drive.google.com/u/0/uc?id=19qUBeq7jGaxP1kWBGaH1XPA6ZbsCpisAG&export=download" style="color:white;">Burp Suite Course</a></li>
+  <li class="a"><a href="https://drive.google.com/u/0/uc?id=1Ier5eOJjwWVyX0M9slkyrctWc7OAoc5j&export=download" style="color:white;">Network Hacking</a></li>
+  <li class="a"><a href="https://drive.google.com/drive/folders/1LORl_bQ0VIl92x6AYZISapMUQnI8KLP6" style="color:white;">Malware Making</a></li>
+  <li class="a"><a href="https://drive.google.com/drive/folders/1lUYP5_nofTtOHoBhZJ_rQOTKVM_CoBGu" style="color:white;">Wordpress Plugins Making</a></li>
+  <li class="a"><a href="https://drive.google.com/drive/folders/10N6oAnBS0Vpx8PKeh4nNb_A-u3fxCX7i" style="color:white;">Linux Server Security</a></li>
+  <li class="a"><a href="https://mega.nz/folder/AFlU0DAY#7rFPZaDBjd9BRx1yl8SNUQ/folder/9I8kXKYD" style="color:white;">After Effect Course</a></li>
+  <li class="a"><a href="https://mega.nz/folder/xI01CRKQ#Ab29jY-ZhLIfkMmZEwOWOw" style="color:white;">Illustrator Course</a></li>
+  <li class="a"><a href="https://mega.nz/folder/EFcE2BRa#1La7Pei6azyb8elpND8WDA/folder/AA9SEYCD" style="color:white;">Photo Manipulation & Retouching</a></li>
+  <li class="a"><a href="https://mega.nz/folder/AY9EiAQS#99R4J-ZoCHJAToQCn3lA2Q" style="color:white;">Pyomo Bootcamp Course</a></li>
+  <li class="a"><a href="https://mega.nz/folder/hQ9zkbTb#6vRMZ6Sk6aqVbp9d95n0TA" style="color:white;">Machine Learning</a></li>
+  <li class="a"><a href="https://mega.nz/folder/1gkj0RxC#ia5T9iTAURSz48G6b6UkUw" style="color:white;">Adobe Premiere Pro Course</a></li>
+  <li class="a"><a href="https://mega.nz/folder/VxEDkRTR#uTJszUV_zBVtGM4WRDEeBQ" style="color:white;">Adobe Xd MAster Class</a></li>
+  <li class="a"><a href="https://mega.nz/folder/d8EWSZAD#R4wxglIUwzZEOYTL-z78bw" style="color:white;">Affliating Marketing</a></li>
+  <li class="a"><a href="https://mega.nz/folder/Zg1RABhR#-y1G0RfkJIqhqYGAHy3dPw" style="color:white;">Ai Master Class</a></li>
+  <li class="a"><a href="https://mega.nz/folder/QhdkXAKT#MRG2UiHa2vSnKTwQbSJXQw" style="color:white;">Blender Master Class</a></li>
+  <li class="a"><a href="https://mega.nz/folder/Iwd1ABCa#B-yvP3KWm5j_yXwJbhsw_Q/folder/U8dXXSxC" style="color:white;">Android Widget Making</a></li>
+  <li class="a" class="a"><a href="https://mega.nz/folder/h4UxUC5K#XKEbObxmlEktJXAQVCZLLQ" style="color:white;">Davinci Resolve 17</a></li>
+  <li class="a"><a href="https://mega.nz/folder/OeYXxYyb#MIR4w84X8Bo_vcxcKPcmAQ" style="color:white;">Reverse Engieering</a></li>
+  <li class="a"><a href="https://mega.nz/folder/vWRk2ZbR#NwhqGRZZv_5sUT7czGCp5w" style="color:white;">Memmory Hacking</a></li>
+  <li class="a"><a href="https://mega.nz/folder/Tf4zkSSA#SWP0LQi5lrJyPOdnGepGzw" style="color:white;">React Master Class</a></li>
+  <li class="a"><a href="https://mega.nz/folder/2Hx2FbwA#IBj8usz0AIKd7NYFM0IWsg/folder/bapmFZyY" style="color:white;">Python Machine Learing</a></li>
+  <li class="a"><a href="https://mega.nz/folder/HWRWlSpK#lZ_BzP6xn3CL0AlfmUquDg/folder/7fx0CBhJ" style="color:white;">Python For Pentesters</a></li>
+  <li class="a"><a href="https://mega.nz/folder/I3oFEDxK#_pd-OZIJlhven8MY-rU_HQ" style="color:white;">Master Hacking Course</a></li>
+  <li class="a"><a href="https://mega.nz/folder/3TRG2IiK#cYUfjdBRz4FlsfZFedx4NA" style="color:white;">Advanced Penetration Testing</a></li>
+  <li class="a"><a href="https://drive.google.com/drive/folders/17KyX_80h0yBUrc3X-PMa3EnXoE0kFmJJ" style="color:white;">Black Hat Cracking Course</a></li>
+  <li class="a"><a href="https://mega.nz/folder/E1c0kRyL#d4L37n8wZM3QQW7VpCT2ZQ" style="color:white;">BLACK HAT PAKISTAN ALL COURSES</a></li>
+  <li class="a"><a href="http://xpshort.com/OT8Bn" style="color:white;">ZeroPointSecurity</a></li>
+  <li class="a"><a href="https://github.com/PushpenderIndia/thorse" style="color:white;">Thorse RAT</a></li>
+  <li class="a"><a href="https://mega.nz/folder/T8swlZRA#w7Bj\_NcBhoiTGuzFqDq8vg" style="color:white;">Build Your Own SMTP Server</a></li>
+  <li class="a"><a href="https://mega.nz/folder/h4pkHJzL#bypWaoq63H1duQlu2drAvg" style="color:white;">Extreme Hack PAck</a></li>
+  <li class="a"><a href="https://www.mediafire.com/file/26csnk0gik0ic5q/Master+Hack+Pack.zip" style="color:white;">Paid Hacking Tools</a></li>
+  <li class="a"><a href="https://anonfiles.com/xb33o614p0/Spymax_4.0_Cracked_By_DedSeec.com_zip" style="color:white;">Spymax Cracked(Password : R3TR0S@P13NS)</a></li>
+  <li class="a"><a href="http://xtreme.freemodsapp.xyz/2022/05/sniperphish.html" style="color:white;">SniperPhish</a></li>
+<li class="a"><a href="https://m.easysky.in/AO3PJo" style="color:white;">Instagram Hacking Methods</a></li>
+<li class="a"><a href="https://m.easysky.in/G3lxA6t" style="color:white;">GET 15000 DAILY YOUTUBE-SUBS+LIKE+VIEWS</a></li>
+<li class="a"><a href="https://m.easysky.in/6pZbX8" style="color:white;">Hack Whatsapp Account By Mac Address</a></li>
+<li class="a"><a href="https://www.mediafire.com/file/78nivo9siuy7roc/CypherRat_V3.5.rar/file" style="color:white;">Cypher Rat</a></li>
+<li class="a"><a href="https://github.com/AnderMoralDiaz/slam-ransomware-builder/releases/download/srbv1.0/slam.ransomware.builder.installer.exe" style="color:white;">Slam Ransomware</a></li>
+<li class="a"><a href="https://anonfiles.com/Re2495Z9x3/Arsium_Ransomware_Builder_ONLY_DESKTOP_.sfx_exe" style="color:white;">Arsium Ransomware</a></li>
+<li class="a"><a href="https://m.easysky.in/IXwc" style="color:white;">Make Fake Whtsapp Chat</a></li>
+<li class="a"><a href="https://m.easysky.in/DrI5qtPK" style="color:white;">JAM SOMEONE's INTERNET ACCESS</a></li>
+<li class="a"><a href="https://m.easysky.in/lZug" style="color:white;">Download Any Udemy Course For Free</a></li>
+<li class="a"><a href="http://xtreme.freemodsapp.xyz/2022/06/dutchman-hcking-tools.html" style="color:white;">Dutchman Hacking Tools & Video</a></li>
+<li class="a"><a href="https://xtremehacks.techfantasy.in/?go=27c45d91" style="color:white;">Call Bomber</a></li>
+<li class="a"><a href="https://github.com/ScRiPt1337/Lulzwiper-Ransomware" style="color:white;">Lulzwiper Ransomware</a></li>
+<li class="a"><a href="https://github.com/welbek4/blackhole-ransomware" style="color:white;">Blackhole Ransomware</a></li>
+
+  <li class="a"><a href="https://www.mediafire.com/file/dsqllsdu0125f2c/How_to_crack__password_protected_pdf.mp4/file" style="color:white;"></a></li>
+  <li class="a"><a href="https://www.mediafire.com/file/dsqllsdu0125f2c/How_to_crack__password_protected_pdf.mp4/file" style="color:white;">Crack A PDF File</a></li>
+  <li class="a"><a href="https://mega.nz/folder/5OxWGCQS#q7R_62r30NZI_aavJoeplQ" style="color:white;">Website Hacking</a></li>
+  <li class="a"><a href="https://mega.nz/folder/mERTGIgT#wDELxCy096qCIDA-xx5h1g" style="color:white;">Largest Collection Of Hacking Apps</a></li>
+  <li class="a"><a href="https://drive.google.com/file/d/1VSlSX6ZrrZueS-7oKaYZgtkb4xz-hXwE/view" style="color:white;">Keylogger C++</a></li>
+  <li class="a"><a href="https://m.mediafire.com/folder/w10zkik29gtx0/Release" style="color:white;">Best Spamming Tools</a></li>
+  <li class="a"><a href="https://clk.ink/AnmvS5" style="color:white;">Android Botnet(Password : xerxes)</a></li>
+  <li class="a"><a href="https://mega.nz/#!7AxzBQ4L!k4G2Jy-CRpQ7QDXZG8gBP2VAgoSbrDA8FdII0kbzFh8" style="color:white;">RAT Collection</a></li>
+  <li class="a"><a href="https://mega.nz/folder/GbgVmQDA#zFhTzK6S8JJOkz86EMMaxA" style="color:white;">eBooks Collection</a></li>
+  <li class="a"><a href="https://mega.nz/folder/L801WYAC#CKzDuFRkTumpea2zfd8ieA" style="color:white;">Ddos Attack</a></li>
+  <li class="a"><a href="https://mega.nz/folder/fltjAapQ#WlwEsa4VZl1RrEEiHwHdUQ" style="color:white;">Cryptography Course</a></li>
+  <li class="a"><a href="https://mega.nz/folder/L41lhAaJ#IrSlNc_Ui_IyU05jLom8Iw" style="color:white;">Sniffing Course</a></li>
+  <li class="a"><a href="https://mega.nz/folder/W9lRTS7R#h8dIqNU09Ailu5zbZDXBxw" style="color:white;">Cloud Computing</a></li>
+  <li class="a"><a href="https://mega.nz/folder/3l1FkCKa#v4zPLgKw0Rt83OivNB3ecw" style="color:white;">Malware and Threats</a></li>
+  <li class="a"><a href="https://mega.nz/folder/jno3gaqa#s-tVlvcHZJ4Oo1U6BirUIw" style="color:white;">1000+ Hacking tools</a></li>
+  <li class="a"><a href="https://tool.onlinehacking.xyz/Telegram-Member-Adder-Tool" style="color:white;">Telegram Memeber Adding Tool</a></li>
+  <li class="a"><a href="https://mega.nz/folder/j8JzmYjA#sR7N0SOy4fz40NpJ4p9AEw" style="color:white;">Cyber Security Course</a></li>
+  <li class="a"><a href="https://mega.nz/folder/FbByRTJD#GRoMWJpwZg_mFDroNHm6aQ" style="color:white;">Computer Hacking Forensic Investigator</a></li>
+  <li class="a"><a href="https://mega.nz/folder/vZ5xSAbB#BEpxteEfjtZjP5Bqe-IKTg" style="color:white;">Email Bomber</a></li>
+  <li class="a"><a href="https://mega.nz/folder/S8oBlT5S#9i4YEH7XfhDzdV2dmw_oCg/folder/y9Z2QCSY" style="color:white;">Phishing Pages</a></li>
+  <li class="a"><a href="https://mega.nz/folder/S8oBlT5S#9i4YEH7XfhDzdV2dmw_oCg" style="color:white;">ADVANCED SOCIAL ENGINEERING TUTORIAL</a></li>
+  <li class="a"><a href="https://mega.nz/folder/XBxihC7L#01BC9R9lX2XSG1YdLKvAZA" style="color:white;">Blackhat hacking</a></li>
+  <li class="a"><a href="https://mega.nz/folder/1JBEAbIC#Kh75kEVy8tJoVWVXxTz-Qg" style="color:white;">RED TEAM MINDMAP</a></li>
+  <li class="a"><a href="https://mega.nz/folder/ZotmQJxT#elvX_YiIXPmY3PraWeJZ4w" style="color:white;">Kali Master Class</a></li>
+  <li class="a"><a href="https://mega.nz/folder/dxoGkZTb#VQgOFspUZfc9WfP7zl79GA" style="color:white;">Malware In C</a></li>
+  <li class="a"><a href="https://mega.nz/folder/gldnWITB#_J3wIOwUYVriPX6sRfDpbA" style="color:white;">Antivirus Course</a></li>
+  <li class="a"><a href="https://mega.nz/file/u5VS0SxL#perluW11WKDnrahqn9G9IsAv57b0j-x23in2Ml2vM_k" style="color:white;">Winodws Locker</a></li>
+  <li class="a"><a href="https://mega.nz/folder/Hzg1VKBI#byp4rDxc3jZ2X8ehm3hXPg" style="color:white;">Black Hat Hardware Hacking</a></li>
+  <li class="a"><a href="https://www.mediafire.com/file/mrcz8aa7ji05a2m/Quick_Hack_-_Beginners_Ethical_Hacking_Course_%28White_Hat%29.zip/file" style="color:white;">Quick Hacking Course</a></li>
+  <li class="a"><a href="https://mega.nz/folder/57IFVKIb#Lz2rEqshC07V3elwtVgXyQ" style="color:white;">Network hacking full course</a></li>
+  <li class="a"><a href="https://mega.nz/folder/WvIlFCLQ#KHWbWS4Ez57R3jCdpYdREw" style="color:white;">The Complete Ethical Hacking Course</a></li>
+  <li class="a"><a href="https://mega.nz/folder/EpdmRbwS#JbBE-HOWY0mx4TTw4tO_Vg" style="color:white;">Pegasus spyware</a></li>
+  <li class="a"><a href="https://mega.nz/folder/Q0MhjITJ#ptCY-I8MzbbG_OPdUECYXQ" style="color:white;">Social media hacking with android</a></li>
+  <li class="a"><a href="https://mega.nz/folder/U8MDQY7B#Z_4cjgjqsHDdoGL6weV2yQ" style="color:white;">Whatsapp hacking by using gif file</a></li>
+  <li class="a"><a href="https://mega.nz/folder/WSAjGYpJ#RWogOcVV4PG2qnOXzSGZ9w" style="color:white;">400 Black Hat money making e-books</a></li>
+  <li class="a"><a href="https://m.easysky.in/AkNTQ6" style="color:white;">Block Anyone's Sim Card</a></li>
+  <li class="a"><a href="https://drive.google.com/drive/folders/19qUBeq7jGaxP1kWBGaH1XPA6ZbsCpisAG" style="color:white;">Cybersecurity collection</a></li>
+  <li class="a"><a href="https://mega.nz/folder/lBwGDQYa#WcSNTnwGi2Pq1UUltvmErw" style="color:white;">ADOBE AIO BUNDLE PACK</a></li>
+  <li class="a"><a href="http://bit.ly/3gafle" style="color:white;">26 USEFUL GITHUB TOOLS</a></li>
+  <li class="a"><a href="https://t.me/JRHACKS" style="color:white;">Personal Ethical Hacking Cousre</a></li>
+  
+
+
+  
+</ul>
+
+<script>
+function myFunction() {
+    var input, filter, ul, li, a, i, txtValue;
+    input = document.getElementById("myInput");
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName("li");
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        txtValue = a.textContent || a.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+</script>
+
+</body>
+</html>
