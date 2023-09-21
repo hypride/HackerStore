@@ -1,4 +1,4 @@
-# hackerstore.github.io
+# Hacker Store
 
-* Developed By (Nazim cp)[https://nazimcp-dev.github.io]
+* Developed By [Nazimcp](https://instagram.com/nazimcp7)
 * Completly Open-Source
