@@ -1,6 +1,6 @@
 # HackerStore - Get Free Courses
 
-* Developed By [Nazimcp](https://instagram.com/nazimcp7)
+* Developed By [Instagram](https://instagram.com/)
 * Completly Open-Source
 * Vist The [Website](https://hackerstore.vercel.app/) 
 
